@@ -13,70 +13,22 @@
       "id": 2
     },
     {
-      "name": "xxx",
-      "email": "xxx@gmail.com",
-      "password": "xxxxx",
+      "name": "alla",
+      "email": "alla@all.com",
+      "password": "allaaaa",
       "id": 3
     },
     {
-      "name": "xxx",
-      "email": "xxx@gmail.com",
-      "password": "xxxxx",
+      "name": "zxcv",
+      "email": "zxcv@zxc.com",
+      "password": "zxcvbnm",
       "id": 4
     },
     {
-      "name": "hhh",
-      "email": "hhh@gmail.com",
-      "password": "hhhhh",
+      "name": "zxcv",
+      "email": "zxcv@zxc.com",
+      "password": "zxcvbnm",
       "id": 5
-    },
-    {
-      "name": "xxx",
-      "email": "xxx@gmail.com",
-      "password": "xxxxx",
-      "id": 6
-    },
-    {
-      "name": "xxx",
-      "email": "xxx@gmail.com",
-      "password": "xxxxx",
-      "id": 7
-    },
-    {
-      "name": "hhh",
-      "email": "hhh@hhh.com",
-      "password": "77777",
-      "id": 8
-    },
-    {
-      "name": "hhh",
-      "email": "hhh@hhh.com",
-      "password": "12345",
-      "id": 9
-    },
-    {
-      "name": "hhh",
-      "email": "hhh@hhh.com",
-      "password": "12345",
-      "id": 10
-    },
-    {
-      "name": "Has",
-      "email": "has@has.com",
-      "password": "hasmik",
-      "id": 11
-    },
-    {
-      "name": "Peter",
-      "email": "peter@mail.ru",
-      "password": "ppppp",
-      "id": 12
-    },
-    {
-      "name": "alina",
-      "email": "alina@aaa.com",
-      "password": "alina",
-      "id": 13
     }
   ]
 }
