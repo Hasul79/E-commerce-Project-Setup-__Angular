@@ -1,4 +1,4 @@
-.sign-up{
+.sign-up , .login{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -9,4 +9,11 @@
     color:blueviolet;
     background-color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.auth-toggle-link {
+    cursor:pointer;
+    margin-top: 20px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 14px;
 }
