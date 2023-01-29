@@ -1,7 +1,7 @@
 <nav class="nav">
     <h1>E-COMMERCE</h1>
 
-    <div class="nav-search">
+    <div *ngIf="menuType=== 'default' " class="nav-search">
         <input type="text" placeholder="Search for Products" />
         <button>Search</button>
     </div>
