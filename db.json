@@ -41,6 +41,12 @@
       "email": "hhh@gmail.com",
       "password": "54321",
       "id": 7
+    },
+    {
+      "name": "Hasmik",
+      "email": "hash43338@gmail.com",
+      "password": "hhhhh",
+      "id": 8
     }
   ]
 }
