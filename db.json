@@ -48,5 +48,16 @@
       "password": "hhhhh",
       "id": 8
     }
+  ],
+  "products": [
+    {
+      "name": "doogee V30",
+      "price": "156.500",
+      "category": "phone",
+      "color": "black",
+      "image": "https://unite4buy.ru/media/images/2022/12/06/Doogee_V30_5G_1_W7j2Ep0.jpg",
+      "description": "new, android 11 ",
+      "id": 1
+    }
   ]
 }
