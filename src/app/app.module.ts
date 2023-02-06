@@ -12,6 +12,8 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
+import {  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
+
 
 @NgModule({
   declarations: [
@@ -22,13 +24,19 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
     SellerHomeComponent,
     SellerAddProductComponent,
     SellerUpdateProductComponent
+   ],
+
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ],
+ 
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

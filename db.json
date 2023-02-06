@@ -51,22 +51,49 @@
   ],
   "products": [
     {
-      "name": "DELL",
-      "price": "800.500",
-      "category": "laptop",
+      "name": "Ipad",
+      "price": "9000000",
       "color": "grey",
-      "image": "https://www.ankara-asus.com/view/uploads/icerik/6273b084c9dd8165174899680.jpg",
+      "category": "laptop",
       "description": "windows ",
+      "image": "https://www.ankara-asus.com/view/uploads/icerik/6273b084c9dd8165174899680.jpg",
       "id": 3
     },
     {
       "name": "DELL",
-      "price": "800.500",
-      "category": "laptop",
+      "price": "200",
       "color": "grey",
-      "image": "https://www.ankara-asus.com/view/uploads/icerik/6273b084c9dd8165174899680.jpg",
+      "category": "laptop",
       "description": "windows ",
+      "image": "https://www.ankara-asus.com/view/uploads/icerik/6273b084c9dd8165174899680.jpg",
       "id": 4
+    },
+    {
+      "name": "doogee V30",
+      "price": "156.500",
+      "color": "red",
+      "category": "phone",
+      "description": "mobile",
+      "image": "https://unite4buy.ru/media/images/2022/12/06/Doogee_V30_5G_1_W7j2Ep0.jpg",
+      "id": 5
+    },
+    {
+      "name": "doogee N40",
+      "price": "90.500",
+      "color": "black",
+      "category": "phone",
+      "description": "mobile",
+      "image": "https://unite4buy.ru/media/images/2022/12/06/Doogee_V30_5G_1_W7j2Ep0.jpg",
+      "id": 6
+    },
+    {
+      "name": "SAMSUNG",
+      "price": "700.900",
+      "color": "black",
+      "category": "laptop",
+      "description": "laptop",
+      "image": "http://saturnnb.ru/wa-data/public/shop/products/21/00/21/images/48/48.750x0.jpg",
+      "id": 7
     }
   ]
 }
