@@ -50,11 +50,23 @@ export class HeaderComponent implements OnInit {
         const element = query.target as HTMLInputElement;
         // console.warn(element.value);
         this.product.searchProducts(element.value).subscribe((result) => {
-         console.warn(result)
+        //  console.warn(result);
+         if(result.length>5){
+          result.length=5;
+         }
          this.searchResult = result;
-         
         })
       
       }
+    }
+
+    hideSearch(){
+      this.searchResult=undefined
+    }
+
+    submitSearch(val:string){
+      // console.warn(val);
+      this.router.navigate([`search/${val}`])
+      
     }
 }
