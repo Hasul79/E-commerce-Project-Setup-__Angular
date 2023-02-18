@@ -13,7 +13,9 @@ import { SellerAddProductComponent } from './seller-add-product/seller-add-produ
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 import {  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { SearchComponent } from './search/search.component'
+import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { UserAuthComponent } from './user-auth/user-auth.component'
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { SearchComponent } from './search/search.component'
     SellerHomeComponent,
     SellerAddProductComponent,
     SellerUpdateProductComponent,
-    SearchComponent
+    SearchComponent,
+    ProductDetailsComponent,
+    UserAuthComponent
    ],
 
   schemas: [

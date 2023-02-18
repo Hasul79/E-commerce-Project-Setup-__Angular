@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
     menuType: string = 'default';
     sellerName:string = '';
    searchResult : undefined | product[];
+  route: any;
 
    constructor(private router: Router, private product: ProductService){ }
 
@@ -62,6 +63,10 @@ export class HeaderComponent implements OnInit {
 
     hideSearch(){
       this.searchResult=undefined
+    }
+
+    redirectToDetails(id:number){
+      this.route.navigate(['/details/'+id])
     }
 
     submitSearch(val:string){
