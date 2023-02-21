@@ -95,5 +95,19 @@
       "image": "http://saturnnb.ru/wa-data/public/shop/products/21/00/21/images/48/48.750x0.jpg",
       "id": 7
     }
+  ],
+  "users": [
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 1
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 2
+    }
   ]
 }
