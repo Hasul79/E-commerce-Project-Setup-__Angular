@@ -6,6 +6,13 @@ import { product } from '../data-type';
   providedIn: 'root'
 })
 export class ProductService {
+  searchProduct(value: string) {
+    throw new Error('Method not implemented.');
+  }
+  getCartList(id: any) {
+    throw new Error('Method not implemented.');
+  }
+  cartData: any;
 
   constructor(private http: HttpClient) { }
    addProduct(data: product){

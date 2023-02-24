@@ -108,6 +108,42 @@
       "email": "has@has.com",
       "password": "has777",
       "id": 2
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has123",
+      "id": 3
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 4
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 5
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 6
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has777",
+      "id": 7
+    },
+    {
+      "name": "Has",
+      "email": "has@has.com",
+      "password": "has123",
+      "id": 8
     }
   ]
 }
