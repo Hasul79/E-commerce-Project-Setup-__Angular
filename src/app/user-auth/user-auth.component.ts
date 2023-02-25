@@ -12,11 +12,11 @@ export class UserAuthComponent implements OnInit{
 
 
   ngOnInit(): void {
-    
+    this.user.userAuthReload()
   }
 
   signUp(data : signUp) {
   // console.warn(data);
-   this.user.userSignUp(data)
+   this.user.userSignUp(data);
   }
 }
