@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './auth.guard';
+// import { CartPageComponent } from './cart-page/cart-page.component';
+// import { CheckoutComponent } from './checkout/checkout.component';
 import { HomeComponent } from './home/home.component';
+// import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { SearchComponent } from './search/search.component';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
@@ -12,47 +15,51 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 
 const routes: Routes = [
   {
-    path: '',
     component: HomeComponent,
+    path: '',
   },
   {
-    path: 'seller-auth',
     component: SellerAuthComponent,
+    path: 'seller-auth',
   },
   {
-    path: 'seller-home',
-    component: SellerHomeComponent,
-    canActivate: [AuthGuard]
+    component:SellerHomeComponent,
+    path:'seller-home',
+    canActivate:[AuthGuard]
   },
   {
-    path: 'seller-add-product',
-    component: SellerAddProductComponent,
-    canActivate: [AuthGuard]
+    component:SellerAddProductComponent,
+    path:'seller-add-product',
+    canActivate:[AuthGuard]
+  },{
+    component:SellerUpdateProductComponent,
+    path:'seller-update-product/:id',
+    canActivate:[AuthGuard]
   },
   {
-    path: 'seller-update-product/:id',
-    component: SellerUpdateProductComponent,
-    canActivate: [AuthGuard]
-  },
-  {
-    path: 'search/:query',
     component: SearchComponent,
-  },
-  {
-    path: 'details/:productId',
-    component: ProductDetailsComponent,
-  },
-  {
-    path: 'user-auth',
-    component: UserAuthComponent,
+    path:'search/:query'
+  },{
+    component:ProductDetailsComponent,
+    path:'details/:productId'
+  },{
+    component:UserAuthComponent,
+    path:'user-auth'
   }
-
+  // {
+  //   component:CartPageComponent,
+  //   path:'cart-page'
+  // },{
+  //   component:CheckoutComponent,
+  //   path:'checkout'
+  // },{
+  //   component:MyOrdersComponent,
+  //   path:'my-orders'
+  // }
 ];
-
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

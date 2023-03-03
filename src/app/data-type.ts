@@ -10,11 +10,13 @@ export interface login {
 }
 
 export interface product {
+    productId: any
     name: string,
     price: number,
     color: string,
     category: string,
     description: string,
     image: string,
-    id: number
+    id: number,
+    quantity: undefined | number
 }
